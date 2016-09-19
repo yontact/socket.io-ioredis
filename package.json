@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:socketio/socket.io-ioredis.git"
+    "url": "git@github.com:yontact/socket.io-ioredis.git"
   },
   "scripts": {
     "test": "mocha"
