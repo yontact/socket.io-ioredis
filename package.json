@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
+  "author": "fanhai inc <fanhaitech@qq.com>",
+  "contributors": [
+    "Chen Wei <acee06.weichen@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:yontact/socket.io-ioredis.git"
