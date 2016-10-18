@@ -1,6 +1,6 @@
 {
   "name": "socket.io-redis-sentinel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "license": "MIT",
   "author": "fanhai inc <fanhaitech@qq.com>",
