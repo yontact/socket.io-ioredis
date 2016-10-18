@@ -43,7 +43,7 @@ function adapter(uri, opts) {
 
   // init clients if needed
   function createClient(redis_opts) {
-    var options = _.clone(opts);
+    var options = _.clone(redis_opts);
     var client;
 
     if (options.url) {
@@ -88,8 +88,8 @@ function adapter(uri, opts) {
     return client;
   }
   
-  if (!pub) pub = createClient();
-  if (!sub) sub = createClient({ return_buffers: true });
+  if (!pub) pub = createClient(opts);
+  if (!sub) sub = createClient(opts);
 
   // this server's key
   var uid = uid2(6);
